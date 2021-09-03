@@ -99,7 +99,7 @@ label #cancel {
     background-color: rgb(10, 10, 36);
     top: 50px;
     left: -100%;
-    transition-duration: 1s;
+    transition-duration: 0.5s;
   }
   nav .list-left li {
     padding: 20px;
