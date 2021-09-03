@@ -41,7 +41,8 @@
 .calender-hour {
   margin-left: 2%;
   height: 40px;
-  margin: 0px 2% 2px 20px;
+  margin: 0px 0 2px 2%;
+
   width: 100%;
   background-color: rgb(115, 207, 243);
 }
@@ -70,15 +71,20 @@ p {
 }
 span {
   position: absolute;
+  left: -10px;
 }
 @media (max-width: 600px) {
   #pick-date {
     width: 60%;
   }
   .date-day #date-string {
-    font-size: 20px;
+    font-size: 16px;
   }
   .date-day #day-string {
     font-size: 14px;
+  }
+  .calender-meeting h5,
+  p {
+    font-size: 15px;
   }
 }

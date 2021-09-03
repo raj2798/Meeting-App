@@ -1,23 +1,25 @@
 .team-add-form {
   position: absolute;
-  border: 1px solid rgba(0, 0, 0, 0.226);
-  margin: 20px 10%;
-  width: 80%;
+  width: 60%;
+  margin: 0 20%;
   display: none;
-  border-radius: 5px;
-  background: linear-gradient(120deg, #0a3b3b, #00ffd5);
+  top: 10%;
+  height: 80vh;
+  border-radius: 10px;
+  background: linear-gradient(120deg, #0df7f7, rgb(115, 207, 243));
   box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.52);
   align-items: center;
 }
 .team-add-form hr {
-  margin: 10px 2.5%;
-  width: 95%;
+  margin: 30px 0;
+  width: 100%;
+  color: black;
 }
 #lblTitle {
-  font-size: 22px;
+  font-size: 27px;
   font-weight: 700;
   margin-bottom: 20px;
-  color: white;
+  color: rgb(0, 0, 0);
   text-align: center;
   margin-top: 20px;
 }
@@ -31,7 +33,7 @@
 }
 .input-fields label {
   width: 300px;
-  color: white;
+  color: black;
   font-size: 20px;
 }
 .input,
@@ -48,10 +50,12 @@
 }
 .btnSubmit {
   width: 20%;
+  padding: 0 10px;
   margin-left: 80%;
   background-color: white;
   cursor: pointer;
-  color: #00ffd5;
+  /* color: rgb(115, 207, 243); */
+  color: black;
   font-weight: 700;
   height: 2em;
   border: 0;
@@ -60,27 +64,28 @@
 }
 .cancel-form {
   position: absolute;
-  color: white;
+  color: black;
   right: 0;
   top: 0;
   font-size: 25px;
   margin: 15px 20px 0 0;
-  border: 1px solid white;
+  border: 1px solid black;
   padding: 2px 5px;
-  border-radius: 5px;
+  border-radius: 10px;
   cursor: pointer;
 }
 @media (max-width: 600px) {
   .team-add-form {
     width: 100%;
+    margin: 0;
   }
   .team-add-form hr {
     margin: 10px 5%;
     width: 90%;
   }
   .btnSubmit {
-    width: 20%;
-    margin-left: 80%;
+    width: 25%;
+    margin-left: 75%;
   }
   .input-fields label {
     width: 200px;

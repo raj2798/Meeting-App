@@ -62,11 +62,14 @@ meetingPageForm-1 {
 #search {
   padding: 5px 10px;
   color: white;
-  background-color: rgb(18, 168, 228);
+  background-color: rgb(7, 113, 155);
   border: none;
   margin-bottom: 10px;
   border-radius: 2px;
   cursor: pointer;
+}
+#search:hover {
+  background-color: rgb(10, 169, 231);
 }
 .meeting-list {
   margin-top: 1em;
@@ -130,12 +133,12 @@ textarea {
   height: 27px;
 }
 #inputFormat {
-  color: white;
+  color: rgb(0, 0, 0);
   margin-bottom: 15px;
 }
 #addMeeting {
   padding: 0.3em 0.3em;
-  background-color: rgb(18, 168, 228);
+  background-color: rgb(7, 113, 155);
   border: none;
   border-radius: 2px;
   margin-bottom: 10px;
@@ -143,4 +146,6 @@ textarea {
   margin-bottom: 1em;
   cursor: pointer;
 }
-
+#addMeeting:hover {
+  background-color: rgb(10, 169, 231);
+}
