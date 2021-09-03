@@ -19,6 +19,7 @@ body {
   height: auto;
   background: white;
   border-radius: 10px;
+  box-shadow: 0 0 2px 2px rgba(0, 0, 0, 0.52);
 }
 .center h1 {
   text-align: center;
