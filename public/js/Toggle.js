@@ -1,4 +1,4 @@
-// navbar responive 
+// navbar responive
 const hamBurger = document.querySelector("#ham-btn");
 const listLeft = document.querySelector(".list-left");
 hamBurger.addEventListener("click", show);
@@ -16,7 +16,6 @@ function hide() {
   listLeft.style.display = "none";
 }
 
-
 // Meeting page form toggle
 const btnSearchMeeting = document.querySelector(".btnFilterMeetings");
 const btnAddMeeting = document.querySelector(".btnAddMeetings");
@@ -25,7 +24,7 @@ const meetingForm_1 = document.querySelector(".meetingPageForm-1");
 const meetingForm_2 = document.querySelector(".addMeetingForm");
 
 btnAddMeeting.addEventListener("click", () => {
-  btnSearchMeeting.style.color = "rgb(5, 5, 177)";
+  btnSearchMeeting.style.color = "skyblue";
   btnSearchMeeting.style.border = "none";
 
   btnAddMeeting.style.border = " 1px solid rgba(165, 165, 165, 0.993)";
@@ -42,7 +41,7 @@ btnSearchMeeting.addEventListener("click", () => {
   btnSearchMeeting.style.color = "black";
 
   btnAddMeeting.style.border = " none";
-  btnAddMeeting.style.color = "rgb(5, 5, 177)";
+  btnAddMeeting.style.color = "skyblue";
 
   meetingForm_1.style.display = "block";
   meetingForm_2.style.display = "none";
