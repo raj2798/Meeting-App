@@ -2,13 +2,14 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Times New Roman", Times, serif;
-  background: linear-gradient(120deg, #0df7f7, rgb(115, 207, 243));
+  /* background: linear-gradient(120deg, #0df7f7, rgb(115, 207, 243)); */
+  background: linear-gradient(120deg, white, rgb(115, 207, 243));
   height: 100vh;
   overflow: auto;
 }
 .titleMeeting {
   text-align: center;
-  margin-top: 70px;
+  margin-top: 60px;
 }
 .center {
   position: absolute;
