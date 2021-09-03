@@ -1,3 +1,4 @@
+// navbar responive 
 const hamBurger = document.querySelector("#ham-btn");
 const listLeft = document.querySelector(".list-left");
 hamBurger.addEventListener("click", show);
@@ -14,6 +15,8 @@ function hide() {
   listLeft.style.left = "-100%";
   listLeft.style.display = "none";
 }
+
+
 // Meeting page form toggle
 const btnSearchMeeting = document.querySelector(".btnFilterMeetings");
 const btnAddMeeting = document.querySelector(".btnAddMeetings");

@@ -71,6 +71,9 @@
   cursor: pointer;
 }
 @media (max-width: 600px) {
+  .team-add-form {
+    width: 100%;
+  }
   .team-add-form hr {
     margin: 10px 5%;
     width: 90%;
